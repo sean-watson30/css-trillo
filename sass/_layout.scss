@@ -27,9 +27,17 @@
   background-color: var(--color-grey-dark-1);
 
   flex: 0 0 18%; // we don't want it to grow (0), shrink (0), and we want width of 18%
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   background-color: #fff;
   flex: 1; // element should grow as much as it can to fill the rest
+
+  // test
+  height: 80rem;
+  background-color: orangered;
 }
